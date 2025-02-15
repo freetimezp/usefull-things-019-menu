@@ -9,3 +9,91 @@
 a {
     text-decoration: none;
 }
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: url(../images/art-bg.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.toggle-btn {
+    position: fixed;
+    margin: 1.4em;
+    padding: 1em;
+    width: 40px;
+    height: 12px;
+    right: 2rem;
+    z-index: 1;
+}
+
+span.one {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+span.two {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 12px;
+}
+
+.menu {
+    z-index: 0;
+    position: absolute;
+    background: #101010;
+    width: 100%;
+    height: 100vh;
+    top: -100%;
+}
+
+.data {
+    padding: 8em 0 0 2em;
+    text-align: left;
+}
+
+li:first-child {
+    color: grey;
+    font-size: 24px;
+}
+
+li:not(:first-child) {
+    color: #fff;
+    font-size: 42px;
+}
+
+a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
